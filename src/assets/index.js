@@ -33,6 +33,7 @@ import tripguide from "./tripguide.png";
 import olang from "./o-lang.png";
 import krucut from "./krucut.png";
 import codi from "./codi.png";
+import simpel from "./simpel.png";
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   krucut,
   codi,
   ps,
+  simpel,
 };

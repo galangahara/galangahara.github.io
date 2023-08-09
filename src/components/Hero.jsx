@@ -1,6 +1,7 @@
 import {motion} from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import Typewriter from 'typewriter-effect';
 
 
 const Hero = () => {
@@ -12,6 +13,16 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
         <div>
+          <h1 className={`${styles.heroHeadText}`}>
+          <Typewriter
+            options={{
+              strings: ["Hello","Buongiorno", "Buonasera"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+          </h1>
+          <h1 className={`${styles.heroHeadText}`}><span class="text"></span></h1>
           <h1 className={`${styles.heroHeadText}`}>I'm <span className='text-[#915eff]'>Galan</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 font-thin`}>
           a student that loves to learn <br className='sm:block hidden'/> <span className='font-medium'>ui/ux</span> and <span className='font-medium'>front-end.</span>
@@ -19,7 +30,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href="#about">
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>

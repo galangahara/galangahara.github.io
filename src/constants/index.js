@@ -17,6 +17,7 @@ import {
     krucut,
     codi,
     ps,
+    simpel,
   } from "../assets";
   
   export const navLinks = [
@@ -160,6 +161,25 @@ import {
       ],
       image: codi,
       source_code_link: "https://www.figma.com/proto/CB1dvVEJWLMrM1f0vGymh2/CODI?page-id=0%3A1&type=design&node-id=1-3&viewport=156%2C332%2C0.15&t=gESzGxXWd2bSWJ9q-1&scaling=scale-down&starting-point-node-id=1%3A2&mode=design",
+    },
+    {
+      name: "SIMPEL",
+      description:
+        "SIMPEL was  an application for company to help them improve their own employee by doing assessment for their worker.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+        },
+        {
+          name: "boostrap",
+          color: "green-text-gradient",
+        },
+      ],
+      image: simpel,
     },
   ];
   
